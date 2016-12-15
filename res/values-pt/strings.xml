@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- PALAVRA EM PT-BR -->
+    <string name="app_name">Sistema de Controle Financeiro</string>
+    <string name="hello_world">Oi Mundo</string>
+    <string name="menu_settings">Configurações</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="enter">Entrar</string>
+	<string name="new_account">Nova Conta</string>
+	<string name="user_name_dot">Usuário:</string>
+	<string name="password_dot">Senha:</string>
+	<string name="password_confirmation_dot">Confirmar Senha:</string>
+	<string name="email_dot">E-mail:</string>
+	<string name="create_new_account">Cadastrar Nova Conta</string>
+	<string name="save">Salvar</string>
+	<string name="invalid_blank_field">Campo obrigatório</string>
+	<string name="enter_name">Digite seu nome</string>
+	<string name="enter_password">Digite a senha</string>
+	<string name="enter_password_confirmation">Digite a confirmação de senha</string>
+	<string name="enter_email">Digite seu e-mail</string>
+	<string name="invalid_password">A senha deve ser igual com a confirmação de senha e deve possuir no mínimo 6 caracteres.</string>
+	<string name="login_already_exist">Nome já cadastrado.</string>
+	<string name="email_already_exist">E-mail já cadastrado.</string>
+	<string name="invalid_email">E-mail inválido.</string>
+	<string name="registration_completed">Cadastro realizado com sucesso.</string>
+	<string name="keep_loged_in">Manter usuário logado.</string>
+	<string name="user_password_invalid">Usuário ou senha inválida.</string>
+	<string name="financial_control">Controle Financeiro</string>
+	<string name="new_category">Nova Categoria</string>
+	<string name="category_list">Listar Categorias</string>
+	<string name="payment_list">Listar Pagamentos</string>
+	<string name="enter_category">Descrição</string>
+	<string name="delete">Remover</string>
+	<string name="category_removed">Categoria removida.</string>
+	<string name="select_a_category">Favor selecionar uma categoria para exclusão.</string>
+	<string name="category_already_exist">Categoria já cadastrada.</string>
+	<string name="add_remove_category">Adicionar/Remover Categoria</string>
+	<string name="outgo">Despesa</string>
+	<string name="income">Receita</string>
+	<string name="amount">Valor</string>
+	<string name="fixed_cost">Gasto fixo</string>
+	<string name="paid">Pago</string>
+	
+</resources>

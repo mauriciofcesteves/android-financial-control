@@ -1,0 +1,190 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/papel_parede"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/financial_control"
+        android:paddingTop="2dip"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+	 <TableLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:paddingTop="10dip">
+	
+	        <TableRow
+	            android:id="@+id/tableRow1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_horizontal">
+	
+	            <ImageButton
+	                android:id="@+id/saveButton1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:contentDescription="@string/new_category"
+	                android:onClick="clicarBotaoCategoria"
+	                android:layout_marginRight="0dip"
+	                android:src="@drawable/nova_categoria" />
+	
+	            <ImageButton
+	                android:id="@+id/saveButton2"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginRight="5dip"
+	                android:layout_marginLeft="5dip"
+	                android:contentDescription="@string/category_list"
+	                android:src="@drawable/lista_categoria" />
+	
+	            <ImageButton
+	                android:id="@+id/saveButton3"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="0dip"
+	                android:contentDescription="@string/payment_list"
+	                android:src="@drawable/lista_pagamentos" />
+	        </TableRow>
+	
+	        <TableRow
+	            android:id="@+id/tableRow2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_horizontal" >
+
+	            <TextView
+	                android:id="@+id/textView2"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/new_category"
+	                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	            <TextView
+	                android:id="@+id/textView3"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginRight="15dip"
+	                android:layout_marginLeft="15dip"
+	                android:text="@string/category_list"
+	                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	            <TextView
+	                android:id="@+id/textView4"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/payment_list"
+	                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	        </TableRow>
+	
+	        <TableRow
+	            android:id="@+id/tableRow4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_horizontal" >
+
+	            <RadioButton
+	                android:id="@+id/radioButton1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/income" />
+
+	            <RadioButton
+	                android:id="@+id/radioButton2"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/outgo" />
+
+	        </TableRow>
+	
+	        <TableRow
+	            android:id="@+id/tableRow5"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_horizontal" >
+
+	            <EditText
+	                android:id="@+id/editText1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:ems="10"
+	                android:hint="@string/description"
+	                android:text="@string/description" >
+	            </EditText>
+
+	        </TableRow>
+	
+	        <TableRow
+	            android:id="@+id/tableRow6"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_horizontal" >
+
+	            <EditText
+	                android:id="@+id/editText2"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:ems="10"
+	                android:hint="@string/amount"
+	                android:text="@string/amount" >
+	            </EditText>
+
+	        </TableRow>
+	
+	        <TableRow
+	            android:id="@+id/tableRow7"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_horizontal" >
+
+	            <CheckBox
+	                android:id="@+id/checkBox1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/paid" />
+
+	            <CheckBox
+	                android:id="@+id/checkBox2"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/fixed_cost" />
+
+	        </TableRow>
+	
+	        <TableRow
+	            android:id="@+id/tableRow8"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_horizontal" >
+
+	            <Spinner 
+	                android:id="@+id/descricoesCategoria" 
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content" />
+	        </TableRow>
+	
+	        <TableRow
+	            android:id="@+id/tableRow9"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_horizontal" >
+	
+	            <ImageButton
+	                android:id="@+id/saveButton4"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:contentDescription="@string/save"
+	                android:onClick="clicarBotaoSalvar"
+	                android:background="@null"
+	                android:src="@drawable/carregar_botao_salvar" />
+	        </TableRow>
+	</TableLayout>
+
+</LinearLayout>

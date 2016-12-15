@@ -1,0 +1,43 @@
+<resources>
+
+    <string name="app_name">Financial Control System</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_principal">Main</string>
+    <string name="enter">Login</string>
+    <string name="new_account">New Account</string>
+    <string name="user_name_dot">User:</string>
+    <string name="password_dot">Password:</string>
+    <string name="password_confirmation_dot">Password Confirmation:</string>
+    <string name="email_dot">E-mail:</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="save">Save</string>
+    <string name="invalid_blank_field">This field cannot be blank</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="enter_password">Password</string>
+    <string name="enter_password_confirmation">Password confirmation</string>
+    <string name="enter_email">Enter your e-mail</string>
+    <string name="invalid_password">Your passwords must match and must be at least 6 characters in length.</string>
+    <string name="login_already_exist">Login already exist.</string>
+    <string name="email_already_exist">E-mail already exist.</string>
+    <string name="invalid_email">Invalid e-mail.</string>
+    <string name="registration_completed">Registration completed.</string>
+    <string name="keep_loged_in">Keep user loged in.</string>
+    <string name="user_password_invalid">Invalid user or password.</string>
+    <string name="financial_control">Financial Control</string>
+	<string name="new_category">New Category</string>
+	<string name="category_list">Category List</string>
+	<string name="payment_list">Payments List</string>
+	<string name="enter_category">Category Name</string>
+	<string name="delete">Delete</string>
+	<string name="category_removed">Category Removed.</string>
+	<string name="select_a_category">Please, select a category to remove.</string>
+	<string name="category_already_exist">Category already exist.</string>
+	<string name="add_remove_category">Add/Remove Category</string>
+	<string name="outgo">Outgo</string>
+	<string name="income">Income</string>
+	<string name="description">Description</string>
+	<string name="amount">Amount</string>
+	<string name="fixed_cost">Fixed cost</string>
+	<string name="paid">Paid</string>
+</resources>

@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/papel_parede"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_new_account"
+        android:paddingTop="2dip"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ScrollView
+        android:layout_width="match_parent" 
+        android:layout_height="match_parent"
+        android:paddingTop="10dip" 
+        >
+        
+	    <TableLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="100dip"
+	        android:layout_marginLeft="10dip"
+	        android:gravity="center_vertical"
+	        android:orientation="vertical" >
+	
+	        <TableRow
+	            android:id="@+id/tableRow1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_horizontal" 
+	            android:layout_marginBottom="15dip">
+	
+	            <EditText
+	                android:id="@+id/nomeUsuario"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:ems="15"
+	                android:hint="@string/enter_name"
+	                android:inputType="textPersonName" />
+	        </TableRow>
+	
+	        <TableRow
+	            android:id="@+id/tableRow2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" 
+	            android:gravity="center_horizontal"
+	            android:layout_marginBottom="15dip">
+	
+	            <EditText
+	                android:id="@+id/senhaUsuario"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:ems="15"
+	                android:hint="@string/enter_password"
+	                android:inputType="textPassword" />
+	        </TableRow>
+	
+	        <TableRow
+	            android:id="@+id/tableRow3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" 
+	            android:gravity="center_horizontal"
+	            android:layout_marginBottom="15dip">
+	
+	            <EditText
+	                android:id="@+id/confirmarSenhaUsuario"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:ems="15"
+	                android:hint="@string/enter_password_confirmation"
+	                android:inputType="textPassword" />
+	        </TableRow>
+	
+	        <TableRow
+	            android:id="@+id/tableRow4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" 
+	            android:gravity="center_horizontal"
+	            android:layout_marginBottom="85dip">
+	
+	            <EditText
+	                android:id="@+id/emailUsuario"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:ems="15"
+	                android:hint="@string/enter_email"
+	                android:inputType="textEmailAddress" />
+	        </TableRow>
+	
+	        <TableRow
+	            android:id="@+id/tableRow5"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" 
+	            android:gravity="center_horizontal">
+	
+	            <ImageButton
+	                android:id="@+id/saveButton2"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:contentDescription="@string/save"
+	                android:onClick="clicarBotaoSalvar"
+	                android:background="@null"
+	                android:src="@drawable/carregar_botao_salvar" />
+	        </TableRow>
+	    </TableLayout>
+    </ScrollView>
+	
+</LinearLayout>

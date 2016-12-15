@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/papel_parede"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_remove_category"
+        android:paddingTop="2dip"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="100dip"
+        android:layout_marginLeft="5dip"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" 
+            android:layout_marginBottom="5dip">
+
+            <EditText
+                android:id="@+id/descricaoCategoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="12"
+                android:hint="@string/enter_category"
+                android:inputType="textPersonName" />
+
+            <ImageButton
+                android:id="@+id/saveButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/save"
+                android:onClick="clicarBotaoSalvar"
+                android:src="@drawable/botao_adicionar" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:gravity="center_horizontal">
+
+            <Spinner 
+                android:id="@+id/descricoesCategoria" 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/removeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/delete"
+                android:onClick="clicarBotaoRemover"
+                android:src="@drawable/botao_remover" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
